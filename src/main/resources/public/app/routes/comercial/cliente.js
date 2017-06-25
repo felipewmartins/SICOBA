@@ -16,5 +16,9 @@
                     templateUrl: 'app/views/comercial/cliente/cliente.list.html',
                     controller: 'ClienteListCtrl'
                 });
+            	.when('/clienteObservacao', {
+            		templateUrl: 'app/views/comercial/cliente/observacao_cliente.list.html',
+            		controller: 'ObservacaoClienteCtrl'
+            	});
         }]);
 }());
